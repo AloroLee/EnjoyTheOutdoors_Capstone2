@@ -1,0 +1,74 @@
+body {
+    background-color: FFFFFF;
+    color: rgb(28, 30, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #0c0b0b; /* Header background color */
+    color: white; /* Header text color */
+    padding: 10px 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px; /* Spacing between cards */
+}
+
+.card img {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover image within the container */
+}
+
+.description {
+    font-size: 14px; /* Font size for descriptions */
+    text-align: center; /* Center align descriptions */
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #0a0a0a; 
+    padding: 10px;
+    text-align: left;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    font-size: 17px;
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+}
+
+.things {
+    text-align: center;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+footer {
+    background-color: #060606;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer .social a {
+    color: #ff7f50;
+    margin: 0 10px;
+}

@@ -3,23 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Grand Channel</title>
+    <link rel="stylesheet" href="./style/main.css">
     <script src="./scripts/main.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="selected">HOME</a><a href="./mountains.html">MOUNTAINS</a><a href="./parks.html">PARKS</a>
-    </nav>
-    <main>
-        <h1>Home</h1>
-        <div id="home-nav">
-            <a href="mountains.html"><img src="./data/images/Adams-StoryImage_2.jpg" alt="mountain"><div class="title">Mountains</div></a>
-            <a href="./parks.html"><img src="./data/images/Zeacliff-StoryImg_2.jpg" alt="park"><div class="title">Parks</div></a>
+    <header>
+        <nav>
+            <a href="index.html" class="selected">HOME</a><a href="./mountains.html">MOUNTAINS</a><a href="./parks.html">PARKS</a>
+        </nav>
+    </header>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         </div>
-    </main>
+    
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="./parks.html">
+                    <img src="./images/GrandTetonNationalPark.jpg" alt="Channel National Park" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Channel National Park</h3>
+                        <p>We had such a great time in Channel Park!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="./mountains.html">
+                    <img src="./images/Mont.jpg" alt="Mountains" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Wonder Mountains</h3>
+                        <p>Happy Climbing!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div><br>
+    
+    <main class="things">
+        <h1>Explore the Wonders of Our Grand Channel</h1>
+        <p><em>Discover breathtaking landscapes, wildlife, and adventures.</em></p>
+        <a href="./thingstodo.html" class="button" role="button">Things To Do</a>
+    </main><br>
+
     <footer>
-        Copyright 2024 &copy;
+        <p>&copy; 2024 Grand Channel Parks & Mountains. All rights reserved.</p>
+        <div class="social">
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
     </footer>
 </body>
 </html>
