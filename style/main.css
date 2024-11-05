@@ -6,8 +6,8 @@ body {
 
 header {
     text-align: center;
-    background-color: #0c0b0b; /* Header background color */
-    color: white; /* Header text color */
+    background-color: #0c0b0b; 
+    color: white; 
     padding: 10px 0;
 }
 
@@ -16,24 +16,33 @@ header {
 }
 
 .card {
-    margin: 10px; /* Spacing between cards */
+    margin: 10px; 
 }
 
 .card img {
-    height: 200px; /* Fixed height for images */
-    object-fit: cover; /* Cover image within the container */
+    height: 200px; 
+    object-fit: cover; 
 }
 
 .description {
-    font-size: 14px; /* Font size for descriptions */
-    text-align: center; /* Center align descriptions */
+    font-size: 14px; 
+    text-align: center; 
     padding: 10px 0;
+}
+
+.logo img {
+    height: 70px; 
+    width: auto;  
+    display: inline-block;
+    vertical-align: middle;
 }
 
 nav {
     background-color: #0a0a0a; 
-    padding: 10px;
+    padding: 1px;
     text-align: left;
+    display: flex;
+    align-items: center; 
 }
 
 nav a {
