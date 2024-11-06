@@ -43,6 +43,8 @@ nav {
     text-align: left;
     display: flex;
     align-items: center; 
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -61,6 +63,11 @@ nav a:hover {
 .things {
     text-align: center;
 }
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .button{
     text-decoration: none;
     display: inline-block;
@@ -71,28 +78,31 @@ nav a:hover {
     font-size: 1rem;
     cursor: pointer;
 }
+.park{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+}
 .mount{
     text-align: center;
-    background-image: url(/images/2MBG.jpg);
-    max-width: auto;
-    background-size: cover;         
-    background-position: center;    
-    background-repeat: no-repeat;  
-    background-attachment: fixed;   
-    min-height: 100vh;             
-    padding: 60px 20px;
-    margin: 0; 
-    color: rgb(23, 20, 20);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    margin: 0;
+    color: #1f1d1d; 
 }
 .foot {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: #060606;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
+    margin: 0;
 }
 footer {
     background-color: #060606;
