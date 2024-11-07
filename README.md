@@ -26,12 +26,11 @@
 
 <p>Screenshots of my platform.</p>
 
-![Alt""]()
-![Alt""]()
-![Alt""]()
-![Alt""]()
-![Alt""]()
+![Alt""](./images/screenhome.jpg)
+![Alt""](./images/screenMount.jpg)
+![Alt""](./images/screenpark.jpg)
+![Alt""](./images/screenthings.jpg)
 
 <p>Screenshot of W3C to validate my html</p>
 
-![Alt""]()
+![Alt""](./images/codevalid.jpg)
