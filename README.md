@@ -21,7 +21,6 @@
     <li>W3C Validator</li>
     <li>W3Schools</li>
     <li>Free Logo Design</li>
-    <li>ChatGPT</li>
 </ul>
 
 <p>Screenshots of my platform.</p>
