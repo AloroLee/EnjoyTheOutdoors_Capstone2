@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
             // Calculate sunrise and sunset using SunCalc
             const now = new Date();
             const times = SunCalc.getTimes(now, m.coords.lat, m.coords.lng);
-            // Uses the user's system locale (default)
             const sunrise = times.sunrise.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             const sunset = times.sunset.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 

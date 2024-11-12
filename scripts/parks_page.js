@@ -16,7 +16,7 @@ function renderParks() {
     const results = document.getElementById("results");
     const selectedType = parkTypeSelect.value;
     const selectedLocation = parkLocationSelect.value;
-    results.innerHTML = ""; // Clear previous results
+    results.innerHTML = ""; 
     let filtered = nationalParksArray;
     
     if (selectedType) {
@@ -54,7 +54,6 @@ function onContent() {
     parkTypeSelect.addEventListener("change", renderParks);
     parkLocationSelect.addEventListener("change", renderParks);
 
-    // Add event listener for the clear button
     clearButton.addEventListener("click", clearForm);
 }
 
